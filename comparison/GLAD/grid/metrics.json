@@ -1,0 +1,17 @@
+{
+  "Method": "GLAD",
+  "Dataset": "MVTec-AD",
+  "Category": "grid",
+  "I_AUROC": 100.0,
+  "I_AP": 100.0,
+  "I_F1max": 100.0,
+  "P_AUROC": 99.52,
+  "P_AP": 53.76,
+  "P_F1max": 54.89000000000001,
+  "PRO": 98.17,
+  "checkpoint_step": 3000,
+  "denoise_step": 750,
+  "input_threshold": 0.47,
+  "v": 0,
+  "min_step": 350
+}

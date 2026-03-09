@@ -1,0 +1,8 @@
+{
+  "Method": "PUAD",
+  "Dataset": "MVTec-AD",
+  "Category": "grid",
+  "Image_AUROC": 100.0,
+  "feature_extractor": "student",
+  "size": "m"
+}

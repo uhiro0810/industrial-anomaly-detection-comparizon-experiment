@@ -1,0 +1,16 @@
+Method,Dataset,Category,Image_AUROC,Pixel_AUROC,Pixel_AP,PRO_or_AUPRO,Notes
+GLAD,MVTec-AD,bottle,100.0,98.65,85.25,96.1,checkpoint_step=2500
+EfficientAD,MVTec-AD,bottle,100.0,97.162,55.72,88.99,efficient_ad_pixel_eval
+PUAD,MVTec-AD,bottle,99.921,,,,feature_extractor=student
+GLAD,MVTec-AD,cable,99.1,98.0,66.72,93.54,checkpoint_step=1500
+EfficientAD,MVTec-AD,cable,97.245,98.231,66.039,90.743,efficient_ad_pixel_eval
+PUAD,MVTec-AD,cable,97.77,,,,feature_extractor=student
+GLAD,MVTec-AD,capsule,99.6,98.64,53.7,94.98,checkpoint_step=2000
+EfficientAD,MVTec-AD,capsule,98.444,98.605,33.174,91.914,efficient_ad_pixel_eval
+PUAD,MVTec-AD,capsule,98.045,,,,feature_extractor=student
+GLAD,MVTec-AD,pill,94.57,97.77,75.2,97.56,checkpoint_step=1500
+EfficientAD,MVTec-AD,pill,98.172,97.752,48.868,89.81,efficient_ad_pixel_eval
+PUAD,MVTec-AD,pill,98.009,,,,feature_extractor=student
+GLAD,MVTec-AD,grid,100.0,99.52,53.76,98.17,checkpoint_step=3000
+EfficientAD,MVTec-AD,grid,100.0,98.195,24.614,93.589,efficient_ad_pixel_eval
+PUAD,MVTec-AD,grid,100.0,,,,feature_extractor=student
