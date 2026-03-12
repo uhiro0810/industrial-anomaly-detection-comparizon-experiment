@@ -1,8 +1,0 @@
-{
-  "Method": "PUAD",
-  "Dataset": "MVTec-AD",
-  "Category": "cable",
-  "Image_AUROC": 97.76986506746627,
-  "feature_extractor": "student",
-  "size": "m"
-}
