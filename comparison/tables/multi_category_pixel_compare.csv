@@ -1,0 +1,11 @@
+Method,Category,Pixel_AUROC,Pixel_AP,PRO_or_AUPRO
+GLAD,bottle,98.71,85.5,96.15
+EfficientAD,bottle,97.162,55.72,88.99
+GLAD,cable,98.12,68.61,94.01
+EfficientAD,cable,98.231,66.039,90.743
+GLAD,capsule,98.54,53.67,94.24
+EfficientAD,capsule,98.605,33.174,91.914
+GLAD,pill,97.9,75.99,97.6
+EfficientAD,pill,97.752,48.868,89.81
+GLAD,grid,99.57,54.67,98.33
+EfficientAD,grid,98.195,24.614,93.589
