@@ -232,7 +232,7 @@ PUAD は EfficientAD をベースに、picturable anomaly と unpicturable anoma
 # 可視化例
 
 ## image-level の比較グラフ
-![image-level comparison](comparison/figures/image_auroc_by_category.png)
+![](/images/figures/image_auroc_by_category.png)
 
 ## 可視化比較について
 
@@ -255,36 +255,36 @@ PUAD は EfficientAD をベースに、picturable anomaly と unpicturable anoma
 **GLAD visualization example**  
 左から、入力画像、再構成画像、異常ヒートマップ、予測異常領域。
 
-![](comparison/GLAD/bottle/samples/glad_bottle_1.png)
-![](comparison/GLAD/bottle/samples/glad_bottle_2.png)
+![](/images/GLAD/bottle/glad_bottle_1.png)
+![](/images/GLAD/bottle/glad_bottle_2.png)
 
 ### cable
 **GLAD visualization example**  
 左から、入力画像、再構成画像、異常ヒートマップ、予測異常領域。
 
-![](comparison/GLAD/cable/samples/glad_cable_1.png)
-![](comparison/GLAD/cable/samples/glad_cable_2.png)
+![](/images/GLAD/cable/glad_cable_1.png)
+![](/images/GLAD/cable/glad_cable_2.png)
 
 ### capsule
 **GLAD visualization example**  
 左から、入力画像、再構成画像、異常ヒートマップ、予測異常領域。
 
-![](comparison/GLAD/capsule/samples/glad_capsule_1.png)
-![](comparison/GLAD/capsule/samples/glad_capsule_2.png)
+![](/images/GLAD/capsule/glad_capsule_1.png)
+![](/images/GLAD/capsule/glad_capsule_2.png)
 
 ### grid
 **GLAD visualization example**  
 左から、入力画像、再構成画像、異常ヒートマップ、予測異常領域。
 
-![](comparison/GLAD/grid/samples/glad_grid_1.png)
-![](comparison/GLAD/grid/samples/glad_grid_2.png)
+![](/images/GLAD/grid/glad_grid_1.png)
+![](/images/GLAD/grid/glad_grid_2.png)
 
 ### pill
 **GLAD visualization example**  
 左から、入力画像、再構成画像、異常ヒートマップ、予測異常領域。
 
-![](comparison/GLAD/pill/samples/glad_pill_1.png)
-![](comparison/GLAD/pill/samples/glad_pill_2.png)
+![](/images/GLAD/pill/glad_pill_1.png)
+![](/images/GLAD/pill/glad_pill_2.png)
 
 ## EfficientAD の可視化例
 
@@ -292,36 +292,36 @@ PUAD は EfficientAD をベースに、picturable anomaly と unpicturable anoma
 **EfficientAD visualization example**  
 左から、入力画像、重畳ヒートマップ、anomaly map。
 
-![](comparison/EfficientAD/bottle/samples/000_broken_large_score_1.4279.png)
-![](comparison/EfficientAD/bottle/samples/001_broken_large_score_2.6971.png)
+![](/images/EfficientAD/bottle/000_broken_large_score_1.4279.png)
+![](/images/EfficientAD/bottle/001_broken_large_score_2.6971.png)
 
 ### cable
 **EfficientAD visualization example**  
 左から、入力画像、重畳ヒートマップ、anomaly map。
 
-![](comparison/EfficientAD/cable/samples/000_bent_wire_score_0.6386.png)
-![](comparison/EfficientAD/cable/samples/001_bent_wire_score_1.3788.png)
+![](/images/EfficientAD/cable/000_bent_wire_score_0.6386.png)
+![](/images/EfficientAD/cable/001_bent_wire_score_1.3788.png)
 
 ### capsule
 **EfficientAD visualization example**  
 左から、入力画像、重畳ヒートマップ、anomaly map。
 
-![](comparison/EfficientAD/capsule/samples/000_crack_score_0.4557.png)
-![](comparison/EfficientAD/capsule/samples/001_crack_score_3.5638.png)
+![](/images/EfficientAD/capsule/000_crack_score_0.4557.png)
+![](/images/EfficientAD/capsule/001_crack_score_3.5638.png)
 
 ### grid
 **EfficientAD visualization example**  
 左から、入力画像、重畳ヒートマップ、anomaly map。
 
-![](comparison/EfficientAD/grid/samples/000_bent_score_2.1464.png)
-![](comparison/EfficientAD/grid/samples/001_bent_score_2.3808.png)
+![](/images/EfficientAD/grid/000_bent_score_2.1464.png)
+![](/images/EfficientAD/grid/001_bent_score_2.3808.png)
 
 ### pill
 **EfficientAD visualization example**  
 左から、入力画像、重畳ヒートマップ、anomaly map。
 
-![](comparison/EfficientAD/pill/samples/000_color_score_0.2514.png)
-![](comparison/EfficientAD/pill/samples/001_color_score_2.5432.png)
+![](/images/EfficientAD/pill/000_color_score_0.2514.png)
+![](/images/EfficientAD/pill/001_color_score_2.5432.png)
 
 ---
 
