@@ -1,8 +1,0 @@
-{
-  "Method": "PUAD",
-  "Dataset": "MVTec-AD",
-  "Category": "pill",
-  "Image_AUROC": 98.0087288597927,
-  "feature_extractor": "student",
-  "size": "m"
-}

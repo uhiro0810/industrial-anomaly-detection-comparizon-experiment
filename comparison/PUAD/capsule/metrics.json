@@ -1,8 +1,0 @@
-{
-  "Method": "PUAD",
-  "Dataset": "MVTec-AD",
-  "Category": "capsule",
-  "Image_AUROC": 98.04547267650578,
-  "feature_extractor": "student",
-  "size": "m"
-}
