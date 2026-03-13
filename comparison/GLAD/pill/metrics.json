@@ -1,0 +1,17 @@
+{
+  "Method": "GLAD",
+  "Dataset": "MVTec-AD",
+  "Category": "pill",
+  "I_AUROC": 96.56,
+  "I_AP": 99.39,
+  "I_F1max": 96.06,
+  "P_AUROC": 97.68,
+  "P_AP": 74.81,
+  "P_F1max": 69.67999999999999,
+  "PRO": 97.43,
+  "checkpoint_step": 1500,
+  "denoise_step": 750,
+  "input_threshold": 0.35,
+  "v": 0,
+  "min_step": 350
+}

@@ -1,0 +1,17 @@
+{
+  "Method": "GLAD",
+  "Dataset": "MVTec-AD",
+  "Category": "cable",
+  "I_AUROC": 99.16,
+  "I_AP": 99.56,
+  "I_F1max": 97.83,
+  "P_AUROC": 97.96000000000001,
+  "P_AP": 67.7,
+  "P_F1max": 64.36,
+  "PRO": 93.55,
+  "checkpoint_step": 1500,
+  "denoise_step": 750,
+  "input_threshold": 0.4,
+  "v": 0,
+  "min_step": 350
+}
