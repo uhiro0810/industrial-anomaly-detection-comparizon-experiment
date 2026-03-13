@@ -101,19 +101,19 @@ PUAD は EfficientAD をベースに、picturable anomaly と unpicturable anoma
 
 ## Key Observations
 
-### 1. GLAD is strong at pixel-level localization
+### 1. GLADはピクセルレベルでの異常検知に優れる
 GLAD は平均 `Pixel_AUROC`, `Pixel_AP`, `PRO / AUPRO` のすべてで EfficientAD を上回りました。  
 とくに `Pixel_AP` の差が大きく、**異常領域の位置推定や領域品質に強い**ことが分かります。
 
-### 2. EfficientAD / PUAD are highly competitive at image-level classification
+### 2. EfficientAD / PUADは画像レベルでの分類において非常に高い競争力をもつ
 EfficientAD と PUAD は平均 `Image_AUROC` で GLAD をわずかに上回りました。  
 これは、**画像全体として異常かどうかを判定する用途**では、軽量系手法が非常に実用的であることを示しています。
 
-### 3. Different methods excel in different settings
+### 3. 各手法に対して強い評価指標をもつ
 `pill` では、GLAD の `Image_AUROC` は下がる一方で、pixel-level 指標は強いままでした。  
 つまり、GLAD は **局所異常の抽出は得意だが、画像全体スコアへの集約が弱くなる場合がある**ことが示唆されます。
 
-### 4. PUAD is useful as an image-level enhancement method
+### 4. PUADは画像レベルの異常検出の強化手法として有用である
 今回用いた公開実装では、PUAD は pixel-level map を直接出していません。  
 そのため、本比較では **image-level を強化する派生手法** として位置付けています。  
 一方で anomaly-wise AUROC が出せるため、**異常タイプごとの得意・不得意を分析できる**という利点があります。
